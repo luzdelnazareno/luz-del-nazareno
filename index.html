@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luz del Nazareno - Bienvenido</title>
+    <style>
+        /* Estilos Generales */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #0a1128 0%, #1c3144 100%);
+            color: #ffffff;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            background-color: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            padding: 40px 30px;
+            max-width: 500px;
+            width: 100%;
+            text-align: center;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+        }
+
+        .logo-icon {
+            font-size: 50px;
+            margin-bottom: 15px;
+            color: #ffda79;
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+            color: #ffffff;
+            letter-spacing: 1px;
+        }
+
+        p.subtitle {
+            font-size: 1.05rem;
+            color: #d1d8e0;
+            margin-bottom: 30px;
+            line-height: 1.5;
+        }
+
+        /* Botón de Acción Principal (CTA) */
+        .btn-youtube {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #ff0000;
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 1.1rem;
+            font-weight: bold;
+            padding: 16px 28px;
+            border-radius: 50px;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(255, 0, 0, 0.4);
+            width: 100%;
+        }
+
+        .btn-youtube:hover {
+            background-color: #cc0000;
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(255, 0, 0, 0.6);
+        }
+
+        .btn-youtube svg {
+            width: 24px;
+            height: 24px;
+            margin-right: 10px;
+            fill: #ffffff;
+        }
+
+        .footer {
+            margin-top: 30px;
+            font-size: 0.85rem;
+            color: #a5b1c2;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Ícono decorativo / Logo -->
+        <div class="logo-icon">✨</div>
+
+        <!-- Título principal -->
+        <h1>Luz del Nazareno</h1>
+
+        <!-- Mensaje de bienvenida -->
+        <p class="subtitle">
+            Un espacio dedicado al mensaje, la fe y la reflexión espiritual. Acompáñanos y forma parte de nuestra comunidad.
+        </p>
+
+        <!-- Botón que redirige a YouTube -->
+        <a href="https://www.youtube.com/@Luz_del_Nazareno?sub_confirmation=1" class="btn-youtube" target="_blank" rel="noopener noreferrer">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+            </svg>
+            Ir al Canal de YouTube
+        </a>
+
+        <div class="footer">
+            <p>© Luz del Nazareno | Todos los derechos reservados</p>
+        </div>
+    </div>
+
+</body>
+</html>
